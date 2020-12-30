@@ -12,4 +12,4 @@ const ThirdPage = () => (
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
-export default
+export default ThirdPage
