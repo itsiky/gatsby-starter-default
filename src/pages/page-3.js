@@ -4,11 +4,11 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const ThirdPage = () => (
+const conntact = () => (
   <Layout>
-    <SEO title="Page three" />
+    <SEO title="Contact" />
     <h1>Hi from the third page</h1>
-    <p>Welcome to page 3</p>
+    <p>Welcome to contact page</p>
   <p></p>
     <form name="contact" method="POST" data-netlify="true">
   <p>
@@ -30,8 +30,8 @@ const ThirdPage = () => (
     <button type="submit">Send</button>
   </p>
 </form>
-  
+  <p></p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
-export default ThirdPage
+export default conntact
