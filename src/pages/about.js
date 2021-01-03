@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import SharkImg from "..components/sharkimg"
+import Sharkimg from "../components/sharkimg"
 
 export default function About() {
   return (
@@ -11,7 +11,7 @@ export default function About() {
      <SEO title="About" />   
      <h1>About Us</h1>  
       <p></p>
-     <SharkImg/>
+     <Sharkimg/>
       <Link to="/">Go back to the homepage</Link> 
     </Layout>
   )
