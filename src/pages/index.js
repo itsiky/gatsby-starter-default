@@ -13,8 +13,9 @@ const IndexPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <Link to="/page-2/">Information</Link> <br />
-    <Link to="/page-3/">Contact Us</Link> <br />
+    <Link to="/information/">Information</Link> <br />
+    <Link to="/contactus/">Contact Us</Link> <br />
+    <Link to="/about/">About Us</Link> <br /> 
    </Layout>
 )
 
