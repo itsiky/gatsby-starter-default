@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const contact = () => (
+const Contact = () => (
   <Layout>
     <SEO title="Contact" />
     <h1>Contact Us</h1>
@@ -28,4 +28,4 @@ const contact = () => (
     <Link to="/">Go back to the homepage</Link> 
   </Layout>
 )
-export default contact
+export default Contact

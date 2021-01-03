@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 const InfoPage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Information" />
     <h1>Hi from the information page</h1>
     <p>Welcome to information page</p>
     <p>
