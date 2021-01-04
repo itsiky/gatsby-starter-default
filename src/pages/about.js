@@ -11,7 +11,9 @@ export default function About() {
      <SEO title="About" />   
      <h1>About Us</h1>  
       <p></p>
-     <Sharkimg/>
+      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+      <Sharkimg/>
+      </div>
       <Link to="/">Go back to the homepage</Link> 
     </Layout>
   )
